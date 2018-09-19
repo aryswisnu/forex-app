@@ -1,0 +1,12 @@
+version: "2.1"
+services:
+  react-service:
+    container_name: react-service
+    build: ./
+    ports:
+      - '3337:3000' # expose ports - HOST:CONTAINER
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - './:/usr/src/app'
+      - '/usr/src/app/node_modules'
