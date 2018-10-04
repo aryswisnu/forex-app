@@ -2,7 +2,7 @@
   "name": "forex-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aryswisnu.github.io/forex-app-demo",
+  "homepage": "https://aryswisnu.github.io/forex-app",
   "dependencies": {
     "gh-pages": "^2.0.0",
     "react": "^16.5.1",
